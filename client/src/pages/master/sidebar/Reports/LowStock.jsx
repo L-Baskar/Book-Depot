@@ -1,0 +1,14 @@
+export default function LowStock() {
+  return (
+    <div className="p-6">
+      <h1 className="text-2xl font-bold text-green-600">Low Stock Report</h1>
+      <p className="mt-2 text-gray-600">Products running low on stock.</p>
+    </div>
+  );
+}
+
+
+
+
+
+// i need Top Selling products file code. single row - first - search input box - shopname, billno customer same input box live search. second box default all- daily weekly monthly, third box all shops - dropdown with scrollbar total all shops show. single row below table . table content - s.no shopname product qtysold salevalue with pagination limit 10 import Pagination from "../../../../components/Pagination"; import this file. total all shops live data updated immediatley main table. table responsive on all devices. table color :root{ --primary:#00A76F; --primary-dark:#007867; --accent:#c8fad6; --bg:#f7f8fa; --card:#ffffff; --text:#222; --muted:#6b7280; --border:#e5e7eb; --shadow:0 8px 24px rgba(0,0,0,0.08); } /* Cards */ .card{ background:var(--card); border:1px solid var(--border); border-radius:14px; box-shadow:var(--shadow); } .table-card{padding:10px} /* Table */ .table-responsive { width: 100%; overflow-x: auto; /* horizontal scroll */ overflow-y: auto; /* vertical scroll (if needed) */ -webkit-overflow-scrolling: touch; /* smooth mobile scroll */ max-height: 400px; /* optional: limit height with vertical scroll */ } .table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 600px; /* ensures scroll on small screens */ } .table thead th { text-align: left; color: #111; font-weight: 700; padding: 12px 10px; background: #f3f4f6; position: sticky; top: 0; z-index: 2; /* higher than td borders so header stays visible */ white-space: nowrap; /* prevent wrapping */ } .table tbody td { padding: 12px 10px; border-top: 1px solid var(--border); color: #222; vertical-align: middle; white-space: nowrap; /* prevent wrapping */ } .text-center { text-align: center; using hover effect. color 00A76f 007867 c8fad6 single row using fetching data. I need a dynamic table that shows all Top selling products from all shops. Each row should display: S.No Shop Name products qtysold salevalue The table should: Display all TopSellingProducts (old and new) by default. Support search and filtering by shop name, products. Update dynamically whenever new TopSellingProducts are added. Ensure proper data binding so that the table is never empty if products exist in the database. Show totals or summaries if needed (like total net amount per shop). Currently, the table only shows headers and no rows. I need a working table that fetches all data and displays it correctly. updated fulll code dont miss a line lnline style
